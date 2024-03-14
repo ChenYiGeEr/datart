@@ -170,7 +170,7 @@ public class SqlSplitter {
         return i;
     }
 
-    private enum TokenType {
+    public enum TokenType {
         COMMENT,
         BACK_QUOTED,
         DOUBLE_QUOTED,

@@ -169,6 +169,8 @@ public class CustomPropertiesValidate implements EnvironmentPostProcessor {
             if (CollectionUtils.isEmpty(propertySources)) {
                 System.err.println("Default config application-config not found ");
                 return null;
+            } else if (Objects.nonNull(propertySources.get(0).getProperty(DATABASE_URL))) {
+                return Objects.requireNonNull(propertySources.get(0).getProperty(DATABASE_URL)).toString();
             }
             return environment.getProperty(DATABASE_URL);
         } catch (Exception e) {

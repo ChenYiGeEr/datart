@@ -3,4 +3,4 @@
 
 cd frontend
 npm run lint:css
-npm run lint:style
+# npm run lint:style

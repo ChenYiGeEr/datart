@@ -1,6 +1,6 @@
 package datart.data.provider.calcite;
 
-import datart.data.provider.calcite.parser.impl.SqlParserImpl;
+import org.apache.calcite.sql.parser.impl.SqlParserImpl;
 import org.apache.calcite.avatica.util.Casing;
 import org.apache.calcite.avatica.util.Quoting;
 import org.apache.calcite.sql.SqlDialect;

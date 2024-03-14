@@ -25,7 +25,7 @@ import datart.core.common.ReflectUtils;
 import datart.core.data.provider.ScriptVariable;
 import datart.data.provider.base.DataProviderException;
 import datart.data.provider.jdbc.SqlSplitter;
-import jdk.nashorn.internal.parser.TokenType;
+import datart.data.provider.jdbc.SqlSplitter.TokenType;
 import org.apache.calcite.avatica.util.Quoting;
 import org.apache.calcite.config.Lex;
 import org.apache.calcite.sql.SqlDialect;
